@@ -54,7 +54,7 @@ This project involves analyzing coffee sales data to uncover key trends and insi
 
 The Excel workbook and all associated files can be accessed from the following GitHub repository:
 
-[GitHub Repository](https://github.com/yourusername/coffee-sales-analysis)
+[GitHub Repository](CoffeeShopSales.xlsx)
 
 ---
 
