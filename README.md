@@ -2,7 +2,7 @@
 
 ### Dashboard Image
 
-![Dashboard](path/to/dashboard_image.png)
+![Dashboard](CoffeeShopSales_.png)
 
 ### Project Overview
 
