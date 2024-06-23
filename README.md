@@ -1,7 +1,5 @@
 ## Coffee Sales Analysis Project
 
-### Dashboard Image
-
 ![Dashboard](CoffeeShopSales_.png)
 
 ### Project Overview
