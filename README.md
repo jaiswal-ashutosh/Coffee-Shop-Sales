@@ -14,69 +14,33 @@ This project involves analyzing coffee sales data to uncover key trends and insi
 
 #### Data Transformation Steps
 
-1. **Changed Timestamp Format**:
-   - Converted timestamps to display only the time.
-
-2. **Created Conditional Column for Size**:
-   - Extracted size details (e.g., Small, Medium, Large) from the product details column.
-
-3. **Cleaned Product Details Column**:
-   - Removed size abbreviations (Lg, Rg, Sm) from the product details.
-
-4. **Calculated Total Amount**:
-   - Added a column to compute the total amount for each transaction.
-
-5. **Extracted Day Name**:
-   - Added a column to indicate the day of the week for each transaction.
-
-6. **Extracted Hour of Time**:
-   - Added a column to indicate the hour of each transaction.
-
-7. **Extracted Month Name**:
-   - Added a column to indicate the month name for each transaction.
+- Changed time format
+- Added size column
+- Cleaned product details
+- Calculated total amount
+- Added day of week
+- Added hour of transaction
+- Added month name
 
 #### Data Loading
 
 - Loaded the transformed data into Excel for analysis using Power Pivot.
 
-### Power Pivot Analysis
+## Tables Created for Analysis
 
-#### Created Tables for Analysis
+#### 🕰️ Hourly Transactions
+#### 📅 Daily Transactions
+#### 📆 Monthly Sales
+#### 🛍️ Category Sales
+#### 🏆 Top 5 Products Details
+#### 🥇 Top 5 Product Types
+#### 🏬 Store Location Analysis
 
-1. **Hourly Transactions**:
-   - Summarized the total quantity of transactions by hour.
-
-2. **Daily Transactions**:
-   - Counted the number of transactions by day.
-
-3. **Monthly Sales**:
-   - Summarized the total sales amount by month.
-
-4. **Category Sales**:
-   - Summarized the total sales amount by product category.
-
-5. **Top 5 Products by Sales**:
-   - Listed the top 5 products by total sales amount.
-
-6. **Top 5 Product Types by Sales**:
-   - Listed the top 5 product types by total sales amount.
-
-7. **Store Location Analysis**:
-   - Analyzed the count of transactions and total sales amount by store location.
-
-#### Created Measures in Power Pivot
-
-1. **[Total Sales]**:
-   - Total sales amount.
-
-2. **[Footfall]**:
-   - Total number of transactions.
-
-3. **[Avg_Amount Per Person]**:
-   - Average amount spent per person.
-
-4. **[Avg Orders Per Person]**:
-   - Average number of orders per person.
+## 📊 Created Measures in Power Pivot
+#### 💰 Total Sales
+#### 👥 Footfall
+#### 💸 Avg_Amount Per Person
+#### 🛒 Avg Orders Per Person
 
 ### Interactive Dashboard
 
